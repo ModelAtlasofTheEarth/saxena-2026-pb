@@ -1,0 +1,28 @@
+Field,Value
+Title*,Global plate boundary geometry defined using the GeodynamicWorldBuilder
+Dataset version*,
+Abstract*,"Global and regional mantle flow models use weak plate boundaries to generate instantaneous plate motions. However, manually including the spatial and vertical complexity of each fault feature can be challenging for geodynamic codes. In this example, we show the capability of a community code, GeodynamicWorldBuilder (GWB), to define plate boundary geometries using an input text file that follows the GWB format (.wb). The defined 'world' is then used with ASPECT to prescribe weak viscosity at the locations of plate boundaries defined in the .wb file, to allow plates to move freely relative to each other. We present four different fault database models: Nuvel (DeMets et al., 1990), Bird closed plate boundaries (Bird, 2003) (Bird-closed), the Global Earthquake Model (Pagani et al., 2018; Styron & Pagani, 2020) (GEM), and a limited subset of GEM (Bird-GEM), and the python notebooks that creates the .wb files for these models."
+Topic category*,geoscientificInformation
+Field of research (FOR)*,https://linked.data.gov.au/def/anzsrc-for/2020/370401
+License*,Creative Commons Attribution 4.0 International
+Dataset lineage information*,"Weak plate boundaries are imposed in global convection models primarily to simulate instantaneous flow fields, allowing plates to move freely relative to one another. However, these geometries can be complex including variability across both spatial and depth extents to define faults with varying dip angles. We can incorporate these geometries as initial conditions in our numerical models using GeodynamicWorldBuilder, which creates a 'world' that defines these structures and returns properties (i.e., composition, temperature, density, etc.) for every point in the model mesh."
+Dataset format*,
+Dataset status,completed
+Maintenance frequency*,as needed
+Temporal extents* (if applicable),
+Spatial extents* (if applicable),
+Owner* (if applicable),
+Credit,
+Supplemental or supporting material,
+Local NCI file path,/g/data/nm08/MATE/saxena-2026-pb
+DOI (NCI Internal Field),
+Keyword/s,"plate boundary, GWB, input conditions"
+Author 1,"Saxena, Arushi, Unknown, Unknown, https://orcid.org/0000-0003-2930-3497"
+Author 2,"Dannberg, Juliane, Unknown, Unknown, https://orcid.org/0000-0003-0357-7115"
+Author 3,"Gassmöller, Rene, Unknown, Unknown, https://orcid.org/0000-0001-7098-8198"
+Author 4,"Fraters, Menno, Unknown, Unknown, https://orcid.org/0000-0003-0035-7723"
+Author 5,"Heister, Timo, Unknown, Unknown, https://orcid.org/0000-0002-8137-3903"
+Author 6,"Styron, Richard, Unknown, Unknown, https://orcid.org/0000-0002-2374-9431"
+Organisation/funding agency name,We thank the Computational Infrastructure for Geodynamics (geodynamics.org) which is funded by the National Science Foundation under award EAR-0949446
+Funding/award description or title,No grant ID provided
+Email address for the organisation/agency (if applicable),Email not provided
